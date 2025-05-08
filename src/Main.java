@@ -16,7 +16,10 @@ public class Main {
 
         String mensaje = vehiculo1.controlarVelocidad(velocidad); // Tomar el valor del método en una variable
 
+        System.out.println("\nDel vehiculo " + modelo + ":\n");
         System.out.println(mensaje);
+
+        sc.close();
 
     }
 
