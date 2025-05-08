@@ -16,7 +16,6 @@ public class Main {
 
         Vehiculo vehiculo1= new Vehiculo(velocidad, modelo);
 
-
         String mensaje = vehiculo1.controlarVelocidad(velocidad);
 
         System.out.println(mensaje);
