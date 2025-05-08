@@ -7,7 +7,7 @@ public class Vehiculo {
         this.modelo = modelo;
     }
 
-    public String controlarVelocidad(float velocidad) {
+    public String controlarVelocidad(float velocidad) { // Definir método con validaciones
 
         if (velocidad > 150.00) {
 

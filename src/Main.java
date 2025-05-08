@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // 4. Control de Velocidad de un Automóvil
-        //   Crea un sistema para controlar la velocidad de un automóvil, asegurándote de que no se excedan los límites establecidos y que la velocidad nunca sea negativa.
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese la velocidad: ");
@@ -12,11 +10,11 @@ public class Main {
         System.out.println("Ingrese el modelo: ");
         String  modelo= sc.nextLine();
 
-        //craer objeto
+        // Crear Objeto
 
         Vehiculo vehiculo1= new Vehiculo(velocidad, modelo);
 
-        String mensaje = vehiculo1.controlarVelocidad(velocidad);
+        String mensaje = vehiculo1.controlarVelocidad(velocidad); // Tomar el valor del método en una variable
 
         System.out.println(mensaje);
 
