@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Ingrese la velocidad");
         float velocidad = sc.nextFloat();
         System.out.println("Ingrese el modelo   ");
-        String modelo= sc.nextFloat();
+        String modelo= sc.nextLine();
 
 
     }
