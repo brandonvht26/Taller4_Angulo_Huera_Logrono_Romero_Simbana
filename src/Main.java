@@ -9,7 +9,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese la velocidad");
         float velocidad = sc.nextFloat();
-        System.out.println("Ingrese la marca ");
+        System.out.println("Ingrese el modelo ");
         float modelo= sc.nextFloat();
 
 
