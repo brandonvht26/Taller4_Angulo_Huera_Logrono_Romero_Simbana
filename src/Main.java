@@ -8,8 +8,16 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         System.out.println("Ingrese la velocidad");
         float velocidad = sc.nextFloat();
+        sc.nextLine();
         System.out.println("Ingrese el modelo   ");
-        float modelo= sc.nextFloat();
+        String  modelo= sc.nextLine();
+
+        //craer objeto
+
+        Vehiculo vehiculo1= new Vehiculo(velocidad, modelo);
+
+
+        vehiculo1.controlarVelocidad(velocidad);
 
 
     }
