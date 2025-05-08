@@ -1,13 +1,13 @@
 public class Vehiculo {
-    int velocidad;
+    float velocidad;
     String modelo;
 
-    public Vehiculo(int velocidad, String modelo) {
+    public Vehiculo(float velocidad, String modelo) {
         this.velocidad = velocidad;
         this.modelo = modelo;
     }
 
-    public String controlarVelocidad(int velocidad) {
+    public String controlarVelocidad(float velocidad) {
 
         if (velocidad > 150.00) {
 

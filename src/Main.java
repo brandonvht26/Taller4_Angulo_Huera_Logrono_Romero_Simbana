@@ -6,10 +6,10 @@ public class Main {
         //   Crea un sistema para controlar la velocidad de un automóvil, asegurándote de que no se excedan los límites establecidos y que la velocidad nunca sea negativa.
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ingrese la velocidad");
+        System.out.println("Ingrese la velocidad: ");
         float velocidad = sc.nextFloat();
         sc.nextLine();
-        System.out.println("Ingrese el modelo   ");
+        System.out.println("Ingrese el modelo: ");
         String  modelo= sc.nextLine();
 
         //craer objeto
@@ -17,7 +17,9 @@ public class Main {
         Vehiculo vehiculo1= new Vehiculo(velocidad, modelo);
 
 
-        vehiculo1.controlarVelocidad(velocidad);
+        String mensaje = vehiculo1.controlarVelocidad(velocidad);
+
+        System.out.println(mensaje);
 
 
     }
